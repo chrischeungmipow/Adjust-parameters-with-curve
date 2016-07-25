@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5qK-IL-SXz">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="nbl-iE-goe">
+            <objects>
+                <navigationController id="5qK-IL-SXz" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yrq-2I-aNK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="f3X-pA-DNy" kind="relationship" relationship="rootViewController" id="s2z-m3-Gc8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j9z-uC-bkG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-350" y="41"/>
+        </scene>
+        <!--自定义2-->
+        <scene sceneID="7J9-KM-pBG">
+            <objects>
+                <viewController id="f3X-pA-DNy" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s3C-wr-r0w"/>
+                        <viewControllerLayoutGuide type="bottom" id="0qi-58-ib9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="evl-JY-RUm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="自定义2" id="csp-gv-zmn">
+                        <barButtonItem key="leftBarButtonItem" image="ImageC.png" id="DKb-ue-91e"/>
+                        <barButtonItem key="rightBarButtonItem" image="ImageA.png" id="iem-sc-jW5"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tDF-Zb-J5v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134" y="7"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ImageA.png" width="39" height="43"/>
+        <image name="ImageC.png" width="19" height="35"/>
+    </resources>
+    <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+</document>
